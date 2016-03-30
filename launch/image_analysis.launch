@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="camera_2d" type="camera_2d.py" name="camera_2d" output="screen"/>
+    <node pkg="ros_image_analysis" type="colony_analysis.py" name="colony_analysis" output="screen"/>
+</launch>
